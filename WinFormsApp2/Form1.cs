@@ -17,5 +17,10 @@ namespace WinFormsApp2
             listView1.Items.Add("item 1");
             listView1.Items.Add("item 2");
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("hello");
+        }
     }
 }
